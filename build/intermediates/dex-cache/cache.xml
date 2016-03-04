@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\androidStudioWorkspace\SensitiveAPImonitor\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cb6883d96005bc85b3e868f204507ea5b4fa9bbf">
+        <dex dex="D:\androidStudioWorkspace\SensitiveAPImonitor\app\build\intermediates\pre-dexed\debug\android-support-v4-082382b47f9902762f65dfa69eeec8bd9d1dc884.jar" />
+    </item>
+    <item
+        jar="D:\androidStudioWorkspace\SensitiveAPImonitor\app\libs\XposedBridgeApi.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ddaab44bacde8aca4d3ce15224e0ee6a13aaa566">
+        <dex dex="D:\androidStudioWorkspace\SensitiveAPImonitor\app\build\intermediates\pre-dexed\debug\XposedBridgeApi-ddc17a3de6b72e61da0199a07d7f30f7b3c673de.jar" />
+    </item>
+
+</items>
