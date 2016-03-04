@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:3:3
+	package
+		ADDED from AndroidManifest.xml:2:61
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:2:35
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionCode
+		ADDED from AndroidManifest.xml:2:11
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_SMS
+ADDED from AndroidManifest.xml:4:5
+	android:name
+		ADDED from AndroidManifest.xml:4:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:5:5
+	android:name
+		ADDED from AndroidManifest.xml:5:22
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from AndroidManifest.xml:6:5
+	android:name
+		ADDED from AndroidManifest.xml:6:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:7:5
+	android:name
+		ADDED from AndroidManifest.xml:7:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+application
+ADDED from AndroidManifest.xml:9:5
+	android:label
+		ADDED from AndroidManifest.xml:9:50
+	android:allowBackup
+		ADDED from AndroidManifest.xml:12:9
+	android:icon
+		ADDED from AndroidManifest.xml:9:83
+	android:theme
+		ADDED from AndroidManifest.xml:9:18
+meta-data#xposedmodule
+ADDED from AndroidManifest.xml:13:9
+	android:name
+		ADDED from AndroidManifest.xml:13:20
+	android:value
+		ADDED from AndroidManifest.xml:13:48
+meta-data#xposedminversion
+ADDED from AndroidManifest.xml:14:9
+	android:name
+		ADDED from AndroidManifest.xml:14:20
+	android:value
+		ADDED from AndroidManifest.xml:14:52
+meta-data#xposeddescription
+ADDED from AndroidManifest.xml:15:9
+	android:name
+		ADDED from AndroidManifest.xml:15:20
+	android:value
+		ADDED from AndroidManifest.xml:15:53
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

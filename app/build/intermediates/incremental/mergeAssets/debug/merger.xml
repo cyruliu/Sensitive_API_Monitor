@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\androidStudioWorkspace\SensitiveAPImonitor\app\src\main\assets"><file name="xposed_init" path="D:\androidStudioWorkspace\SensitiveAPImonitor\app\src\main\assets\xposed_init"/></source></dataSet><dataSet config="debug"><source path="D:\androidStudioWorkspace\SensitiveAPImonitor\app\src\debug\assets"/></dataSet></merger>
