@@ -1,5 +1,5 @@
 This an Android dynamic detection program, which is developed based on Xposed Framework;
 The program could monitor the status of system api being invoked by apps running on its platform, this module can:
 1, Record the details of app running on Android system, the information include, api it invokes, and the parameter being used;
-2, Stop the suspected app doing the personal information threatening actions, like send message secretly, turn on the camera without user's permmision;
+2, Stop the suspected app doing the personal information threatening actions, like sending message secretly, turning on the camera without user's permmision, etc.
 3, To be modified...
