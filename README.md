@@ -16,7 +16,7 @@ Framework of Sensitive API Monitor module
 ----------------------------------------------
 This module is developed based on Xposed framework, its working flow can be describe as follow:
 
-![image loading](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/monitor-flow.png "module working flow")
+![image loading](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/monitor-flow.png "module working flow" wide="480")
 
 The module consist of two parts:
 1.  XposedBridge.jar loading, design classes that inherit its XC_MethodHook, XCallBack, MethodHookParam etc.
@@ -44,7 +44,7 @@ All classes and its API that hooked by the module are list below:
 | android.telephony.SmsManager| sendTextMessage, getAllMessagesFromIcc, sendDataMessage, sendMultipartTextMessage|
 | android.telephony.TelephonyManager| getLine1Number, listen|
 
-All relevant APIs hook methods are define in the class ApiMonitorHookManager:
+All relevant APIs hook methods are defined in the class ApiMonitorHookManager:
 
     public void startMonitor(){
         this.smsManagerHook.startHook();
@@ -64,7 +64,7 @@ All relevant APIs hook methods are define in the class ApiMonitorHookManager:
         this.cameraHook.startHook();		  
         this.networkHook.startHook();
         }
-Through Java reflection, each object of the method invoked by the application can be get by program, overriding the Xposed method before(), after(), in which we can imbed our personal code, such as for the class smsManagerHook:
+Through Java reflection, each object of the method invoked by the application can be obtained by program, overriding the Xposed method before(), after(), in which we can imbed our personal code, such as for the class smsManagerHook:
 
     @Override
       public void descParam(HookParam param) {
