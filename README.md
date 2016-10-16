@@ -1,4 +1,5 @@
-## _Knowing what your apps are really doing when you are using them._
+_Knowing what your apps are really doing when you are using them._
+=================================================================
 - This is an Android dynamic detection program, the module is developed based on Xposed Framework. The program could monitor the status of system API invoked by the running apps on the mobile phone. This module can:
 - Record the details of app running on Android system, the information include, specific API being invoked, and the parameter values being called;
 - Stop the suspicious app getting the personal information without user's permission, e.g., sending message secretly, turning on the camera background, etc.
@@ -12,7 +13,7 @@
 | Version        | Android 4.0 above     |  
 
 Framework of Sensitive API Monitor module
-=====================================
+----------------------------------------------
 This module is developed based on Xposed framework, its working flow can be describe as follow:
 
 ![image loading](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/monitor-flow.png "module working flow")
@@ -76,7 +77,7 @@ Through Java reflection, each object of the method invoked by the application ca
         param.setResult(null);    //hook, prevents the call to the original method.
       }
  Experimental Testing
-===================
+------------------------------
 -  Download/Upload: When the application try to download something from remote server, this module can catch its server address:
 
 ![download-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/download.png "app-download"),
