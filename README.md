@@ -78,13 +78,15 @@ Through Java reflection, each object of the method invoked by the application ca
       }
  Experimental Testing
 ------------------------------
--  Download/Upload: When the application try to download something from remote server, this module can catch its server address:
+-  Sending Message: Destination number and the text will be recorded when program has the function of sending message.
+![sms-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/sms.png "sms-app")
+![catlog-sms](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/sms-demo.png)
 
+-  Network Connection: For now the module monitor post and get ways of http connection.
+![network-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/network.png "web-app")
+![network-connection](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/network-demo.png "connection recording")
+
+-  Download/Upload: When the application try to download something from remote server, this module can catch its server address:
 ![download-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/download.png "app-download"),
 ![download-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/upload.png "log-upload"),  ![code-loading](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/download-demo.png "logcate-download")
--  Sending Message: Destination number and the text will be recorded when program has the function of sending message.
 
-![sms-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/sms.png "sms-app"), ![catlog-sms](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/sms-demo.png)
--  Network Connection: For now the module monitor post and get ways of http connection.
-
-![network-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/network.png "web-app"), ![network-connection](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/network-demo.png "connection recording")
