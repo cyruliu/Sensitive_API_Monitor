@@ -87,6 +87,6 @@ Through Java reflection, each object of the method invoked by the application ca
 ![network-connection](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/network-demo.png "connection recording")
 
 -  Download/Upload: When the application try to download something from remote server, this module can catch its server address:
-![download-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/download.png "app-download"),
-![download-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/upload.png "log-upload"),  ![code-loading](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/download-demo.png "logcate-download")
-
+![download-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/upload.png "log-upload")
+![code-loading](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/download-demo.png "logcate-download")
+![download-demo](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/download.png "app-download")
