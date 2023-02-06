@@ -16,13 +16,13 @@ Framework of Sensitive API Monitor module
 ----------------------------------------------
 This module is developed based on Xposed framework, its working flow can be describe as follow:
 
-![image loading](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/monitor-flow.png "module working flow" wide="480")
+![image loading](https://github.com/cyruliu/Sensitive_API_Monitor/blob/master/images/monitor-flow.png "module working flow" wide="480")
 
 The module consist of two parts:
 1.  XposedBridge.jar loading, design classes that inherit its XC_MethodHook, XCallBack, MethodHookParam etc.
 2.  API Hooking, Parameter modifying.
 
-![image loading](https://github.com/donggobler/Sensitive_API_Monitor/blob/master/images/monitor-framework.png "module components")
+![image loading](https://github.com/cyruliu/Sensitive_API_Monitor/blob/master/images/monitor-framework.png "module components")
 
 All classes and its API that hooked by the module are list below:
 
