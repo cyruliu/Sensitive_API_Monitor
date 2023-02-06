@@ -14,7 +14,7 @@ _Knowing what your apps are really doing when you are using them._
 
 Framework of Sensitive API Monitor module
 ----------------------------------------------
-This module is developed based on Xposed framework, its working flow can be describe as follow:
+This module is developed based on Xposed framework, its working flow can be described as follow:
 
 ![image loading](https://github.com/cyruliu/Sensitive_API_Monitor/blob/master/images/monitor-flow.png "module working flow")
 
